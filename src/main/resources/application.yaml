@@ -1,0 +1,8 @@
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/mydatabase
+    driver-class-name: org.postgresql.Driver
+    username: myuser
+    password: mypassword
+    dialect: POSTGRES
+    schema-generate: CREATE-DROP  # Options: CREATE, UPDATE, NONE
